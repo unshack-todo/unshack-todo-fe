@@ -1,0 +1,14 @@
+{
+  "name": "unshack-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "uni.promisify.adaptor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.12"
+  }
+}

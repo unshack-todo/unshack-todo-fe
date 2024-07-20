@@ -1,0 +1,42 @@
+// // tsconfig.json
+// {
+//   "compilerOptions": {
+//     "baseUrl":"./",
+//     "target": "esnext",
+//     "module": "esnext",
+//     "strict": true,
+//     "jsx": "preserve",
+//     "moduleResolution": "node",
+//     "esModuleInterop": true,
+//     "sourceMap": true,
+//     "skipLibCheck": true,
+//     "importHelpers": true,
+//     "allowSyntheticDefaultImports": true,
+//     "useDefineForClassFields": true,
+//     "resolveJsonModule": true,
+//     "lib": [
+//       "esnext",
+//       "dom"
+//     ],
+//     "types": [
+//       "@dcloudio/types"
+//     ]
+//   },
+//   "exclude": [
+//     "node_modules",
+//     "unpackage",
+//     "src/**/*.nvue"
+//   ],
+//   "include": ["./env.d.ts"]
+// }
+
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    // "paths": {
+    //   "@/*": ["src/*"]
+    // },
+    "types": ["@dcloudio/types", "uni-app-types"]
+  },
+  "include": ["./*.ts", "./*.d.ts", "./*.tsx", "pages/**/*.vue","components/**/*.vue"]
+}

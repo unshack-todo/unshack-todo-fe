@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "事项列表",
+  "usingComponents": {
+    "todo-layout": "../../components/todo-layout/todo-layout"
+  }
+}

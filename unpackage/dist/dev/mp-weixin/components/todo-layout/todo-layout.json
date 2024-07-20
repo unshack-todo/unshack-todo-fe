@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "todo-header": "../todo-header/todo-header"
+  }
+}
