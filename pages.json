@@ -18,6 +18,7 @@
 	"globalStyle": {
 		"navigationStyle": "custom"
 	},
+	
 	"tabBar": {
 		"color": "#A7A8A2",
 		"selectedColor": "#92BBEF",
